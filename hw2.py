@@ -56,7 +56,7 @@ Z.imag
 abs(Z)
 
 # Multiply result D with the absolute value of Z, and record it to C
-C=D*Z
+C=D*abs(Z)
 
 # Convert matrix B from a matrix to a string and overwrite B
 B=str(B)
