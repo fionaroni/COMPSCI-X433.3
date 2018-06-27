@@ -12,18 +12,18 @@ We used Anaconda Spyder environment and Jupyter notebook to execute. We used Pyt
 
 The code relies on numpy, scipy, pandas, matplotlib, plotly, seaborn, tensorflow, and sklearn. The specific modules are below (and are also imported into memory upon execution):
 
-import numpy as np 
-from scipy.stats import normaltest, anderson, shapiro 
-import pandas as pd 
-import matplotlib.pyplot as plt 
-import plotly 
-plotly.offline.init_notebook_mode() 
-import seaborn as sns 
-import tensorflow as tf 
-import sklearn 
-from sklearn.model_selection import train_test_split 
-from sklearn.ensemble import RandomForestClassifier 
-from sklearn.metrics import accuracy_score 
-from sklearn import preprocessing 
-from sklearn.preprocessing import normalize 
-from tensorflow.contrib.factorization import KMeans 
+import numpy as np <br />
+from scipy.stats import normaltest, anderson, shapiro <br />
+import pandas as pd <br />
+import matplotlib.pyplot as plt <br />
+import plotly <br />
+plotly.offline.init_notebook_mode() <br />
+import seaborn as sns <br />
+import tensorflow as tf <br />
+import sklearn <br />
+from sklearn.model_selection import train_test_split <br />
+from sklearn.ensemble import RandomForestClassifier <br />
+from sklearn.metrics import accuracy_score <br />
+from sklearn import preprocessing <br />
+from sklearn.preprocessing import normalize <br />
+from tensorflow.contrib.factorization import KMeans <br />
