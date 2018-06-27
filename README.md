@@ -11,18 +11,19 @@ The dataset can be found at https://www.kaggle.com/wendykan/lending-club-loan-da
 We used Anaconda Spyder environment and Jupyter notebook to execute. We used Python version 3.6.
 
 The code relies on numpy, scipy, pandas, matplotlib, plotly, seaborn, tensorflow, and sklearn. The specific modules are below (and are also imported into memory upon execution):
-\nimport numpy as np
-\nfrom scipy.stats import normaltest, anderson, shapiro
-\nimport pandas as pd
-import matplotlib.pyplot as plt
-import plotly
-plotly.offline.init_notebook_mode()
-import seaborn as sns
-import tensorflow as tf
-import sklearn
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
-from sklearn import preprocessing
-from sklearn.preprocessing import normalize
-from tensorflow.contrib.factorization import KMeans
+
+import numpy as np 
+from scipy.stats import normaltest, anderson, shapiro 
+import pandas as pd 
+import matplotlib.pyplot as plt 
+import plotly 
+plotly.offline.init_notebook_mode() 
+import seaborn as sns 
+import tensorflow as tf 
+import sklearn 
+from sklearn.model_selection import train_test_split 
+from sklearn.ensemble import RandomForestClassifier 
+from sklearn.metrics import accuracy_score 
+from sklearn import preprocessing 
+from sklearn.preprocessing import normalize 
+from tensorflow.contrib.factorization import KMeans 
