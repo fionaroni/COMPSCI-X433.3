@@ -28,7 +28,7 @@ np.random.seed(2018)
 # =============================================================================
 # ## Load csv data into pandas dataframe
 # =============================================================================
-df_full = pd.read_csv('lending-club-loan-data/loan.csv')
+df_full = pd.read_csv('loan.csv')
 # ### Check columns 19 and 55 based on warning message
 column_list=df_full.columns.tolist()
 print('There are', len(column_list), 'columns in the dataframe')
