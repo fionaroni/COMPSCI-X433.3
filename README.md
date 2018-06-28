@@ -10,6 +10,8 @@ The dataset can be found at https://www.kaggle.com/wendykan/lending-club-loan-da
 
 We used Anaconda Spyder environment and Jupyter notebook to execute. We used Python version 3.6.
 
+Please note that we have also provided Jupyter Notebook which has all our results embeded in case you want to compare. All you need to do is download the Jupyter Notebook with everything else into a directory and launch it in your local environment.
+
 The code relies on numpy, scipy, pandas, matplotlib, plotly, seaborn, tensorflow, and sklearn. The specific modules are below (and are also imported into memory upon execution):
 
 import numpy as np <br />
