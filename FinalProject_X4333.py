@@ -5,6 +5,7 @@ print('\nOur emails are %s' %Team4DASCemail )
 
 # ## Import all libraries needed for the project
 import numpy as np
+import scipy.stats as stats
 from scipy.stats import normaltest, anderson, shapiro
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -216,7 +217,7 @@ normality_test(normaltest, income_b_normed)
 normality_test(normaltest, lamount_g_normed)
 
 # now we can test the difference in means of incomes, good vs. bad
-stats.ttest_ind(income_g_normed, income_b_normed, nan_policy='omit')
+scipy.stats.ttest_ind(income_g_normed, income_b_normed, nan_policy='omit')
 # output shows Ttest_indResult(statistic=array([-0.4480938]), pvalue=array([0.65408565]))\
 
 # =============================================================================
