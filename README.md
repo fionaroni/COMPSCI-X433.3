@@ -1,6 +1,6 @@
 # COMPSCI-X433.3
 
-Project members: 
+Project members:     
 Zhicheng (Jason) Xue    
 Fiona Tang
 
