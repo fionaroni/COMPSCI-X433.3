@@ -1,7 +1,7 @@
 # COMPSCI-X433.3
 
 Project members: 
-Zhicheng (Jason) Xue
+Zhicheng (Jason) Xue    
 Fiona Tang
 
 Final project analyzing all loans issued from 2007 to 2015 via LendingClub, the world’s largest peer-to-peer lending company. The dataset can be found at https://www.kaggle.com/wendykan/lending-club-loan-data/data.
