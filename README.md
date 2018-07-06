@@ -10,7 +10,7 @@ We used Anaconda Spyder environment to execute. Please note that we have also pr
 
 The code relies on numpy, scipy, pandas, matplotlib, plotly, seaborn, tensorflow, and sklearn. The specific modules are below (and are also imported into memory upon execution):
 
-# packages in environment:
+# package versions
 anaconda 5.2.0    
 anaconda-client 1.6.14     
 anaconda-navigator 1.8.7     
